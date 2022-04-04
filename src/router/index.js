@@ -16,6 +16,11 @@ const routes = [
     component: Search,
   },
   {
+    path: '/create',
+    name: 'Create',
+    component: () => import('../views/Create.vue'),
+  },
+  {
     path: '*',
     name: 'Not-found',
     component: () => import('../views/NotFound.vue'),
