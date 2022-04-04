@@ -1,8 +1,8 @@
 <template>
   <v-app>
     <v-tabs>
-      <v-tab>Search</v-tab>
-      <v-tab>Create</v-tab>
+      <v-tab to="/search">Search</v-tab>
+      <v-tab to="/create">Create</v-tab>
     </v-tabs>
     <v-main>
       <router-view />
