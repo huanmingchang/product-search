@@ -30,6 +30,7 @@ export default {
   },
 }
 </script>
+
 <style scoped>
 .search {
   height: 100vh;
